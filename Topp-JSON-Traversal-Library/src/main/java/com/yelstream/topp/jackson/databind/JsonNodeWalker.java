@@ -186,7 +186,7 @@ public class JsonNodeWalker {
                             } else {
                                 if (node instanceof LongNode) {
                                     LongNode n=(LongNode)node;
-0                                    onLongNode(context,n);
+                                    onLongNode(context,n);
                                 } else {
                                     throw new IllegalStateException(String.format("Failure to walk tree; cannot recognize node %s!",node));
                                 }
