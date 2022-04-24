@@ -1,0 +1,6 @@
+rootProject.name = 'Yelstream Topp JSON Project'
+
+include 'Topp-JSON-Serialization-Library'
+include 'Topp-JSON-Traversal-Library'
+include 'Topp-JSON-Transformation-Library'
+include 'Topp-JSON-Generation-Library'
