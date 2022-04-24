@@ -1,4 +1,4 @@
-rootProject.name = 'Yelstream Topp JSON Project'
+rootProject.name = 'Yelstream Topp JSON Utility Project'
 
 include 'Topp-JSON-Serialization-Library'
 include 'Topp-JSON-Traversal-Library'
