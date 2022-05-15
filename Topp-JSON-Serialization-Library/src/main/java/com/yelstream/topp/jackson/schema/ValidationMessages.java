@@ -8,6 +8,10 @@ import java.util.stream.Collectors;
 
 /**
  * Utility addressing instances of {@link ValidationMessage}.
+ *
+ * @author Morten Sabroe Mortenen
+ * @version 1.0
+ * @since 2022-04-23
  */
 @UtilityClass
 public class ValidationMessages {

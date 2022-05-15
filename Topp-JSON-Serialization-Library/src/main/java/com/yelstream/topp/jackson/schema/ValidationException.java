@@ -6,6 +6,10 @@ import java.io.IOException;
 
 /**
  * Indicates a failed verification of a JSON document against its JSON Schema.
+ *
+ * @author Morten Sabroe Mortenen
+ * @version 1.0
+ * @since 2022-04-23
  */
 @Getter
 public final class ValidationException extends IOException {

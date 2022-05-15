@@ -9,6 +9,10 @@ import java.io.IOException;
 
 /**
  * Utility addressing instances of {@link ObjectMapper}.
+ *
+ * @author Morten Sabroe Mortenen
+ * @version 1.0
+ * @since 2022-04-23
  */
 @UtilityClass
 public class ObjectMappers {

@@ -10,6 +10,10 @@ import java.net.URI;
 
 /**
  * Utility addressing instances of {@link JsonConverter}.
+ *
+ * @author Morten Sabroe Mortenen
+ * @version 1.0
+ * @since 2022-04-23
  */
 @UtilityClass
 public class JsonConverters {

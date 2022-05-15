@@ -13,6 +13,10 @@ import java.io.IOException;
  * Association of a JSON Schema and a deserialized object type.
  * This is immutable.
  * @param <T> Type of Jackson object for the deserialized form of JSON documents.
+ *
+ * @author Morten Sabroe Mortenen
+ * @version 1.0
+ * @since 2022-04-23
  */
 @Getter
 @ToString

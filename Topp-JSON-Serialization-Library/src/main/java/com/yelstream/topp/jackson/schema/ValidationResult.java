@@ -9,6 +9,10 @@ import java.util.Set;
 
 /**
  * Result of JSON document validation against a JSON Schema.
+ *
+ * @author Morten Sabroe Mortenen
+ * @version 1.0
+ * @since 2022-04-23
  */
 @Getter
 @AllArgsConstructor
