@@ -6,11 +6,11 @@ Module: `topp-json-generation-utility`
 
 Topp JSON Generation is an open-source Java library which implements utilities related to the generation of Jackson annotated POJOs carrying JSON.
 
-Currently, the full content is WIP and TBD.
-
 ## Content
 
-### Artifacts
+Currently, the full content is WIP and TBD.
+
+## Artifacts
 
 Artifacts are released to the [Maven Central Repository](https://search.maven.org/).
 

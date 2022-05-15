@@ -1,8 +1,10 @@
 # Topp JSON Utility
 
+A collection of utility libraries.
+
 ## Description
 
-Topp JSON is a collection of utility libraries addressing low-level JSON document handling.
+~~~~Topp JSON is a collection of utility libraries addressing low-level JSON document handling.
 
 ## Content
 
@@ -18,3 +20,4 @@ For the function of these libraries, see the respective readme files.
 ---
 
 _Greetings to all, Morten Sabroe Mortensen_
+<img align="right" width="250" src="doc/image/20220428_214818.png">

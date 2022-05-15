@@ -6,11 +6,11 @@ Module: `topp-json-transformation-utility`
 
 Topp JSON Transformation is an open-source Java library which implements utilities related to the transformation of JSON.
 
-Currently, the full content is WIP and TBD.
-
 ## Content
 
-### Artifacts
+Currently, the full content is WIP and TBD.
+
+## Artifacts
 
 Artifacts are released to the [Maven Central Repository](https://search.maven.org/).
 
