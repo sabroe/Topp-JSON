@@ -1,3 +1,29 @@
+# Topp JSON Serialization Library
+
+Module: `topp-json-serialization-utility`
+
+## Description
+
+Topp JSON Serialization is an open-source Java library which implements utilities related to the serialization of JSON.
+
+Currently, the full content is WIP and TBD.
+
+## Content
+
+### Artifacts
+
+Artifacts are released to the [Maven Central Repository](https://search.maven.org/).
+
+For the latest version,
+search
+[_Group ID_ `io.github.sabroe.topp` and _Artifact ID_ `topp-json-serialization-utility`](https://search.maven.org/search?q=g:io.github.sabroe.topp%20AND%20a:topp-json-serialization-utility).
+
+---
+
+_Greetings to all, Morten Sabroe Mortensen_
+
+
+
 # JSON Converter Library
 
 Module: `json-converter-library`
