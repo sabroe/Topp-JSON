@@ -8,7 +8,7 @@ Topp JSON Generation is an open-source Java library which implements utilities r
 
 ## Content
 
-Currently, the full content is WIP and TBD.
+Currently, the full content is _WIP_ and _TBD_.
 
 ## Artifacts
 
