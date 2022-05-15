@@ -1,6 +1,6 @@
 # Topp JSON Utility
 
-A collection of utility libraries.
+A collection of Java utility libraries.
 
 ## Description
 
