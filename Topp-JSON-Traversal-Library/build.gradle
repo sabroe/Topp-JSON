@@ -4,9 +4,6 @@ plugins {
     id 'signing'
 }
 
-//group 'io.github.sabroe.topp'
-//version '0.0.4-test'
-
 repositories {
     mavenCentral()
     maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
@@ -16,61 +13,10 @@ dependencies {
     compileOnly 'org.projectlombok:lombok:1.18.24'
     annotationProcessor 'org.projectlombok:lombok:1.18.24'
 
-    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.2'
+    api 'com.fasterxml.jackson.core:jackson-databind:2.13.3'
 }
 
 java {
     withJavadocJar()
     withSourcesJar()
-}
-
-publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            groupId = project.group
-            artifactId = 'topp-json-traversal-utility'
-            version = project.version
-            from components.java
-            pom {
-                name = 'Topp-JSON-Traversal'
-                description = 'Topp JSON Traversal is an open-source Java library which implements utilities related to the traversal of JSON.'
-                url = 'https://github.com/sabroe/Topp-JSON'
-                inceptionYear = '2022'
-
-                licenses {
-                    license {
-                        name = 'Apache License 2.0'
-                        url = 'https://github.com/sabroe/Topp-JSON/blob/main/LICENSE'
-                    }
-                }
-                developers {
-                    developer {
-                        id = 'sabroe'
-                        name = 'Morten Sabroe Mortensen'
-                        email = 'morten.sabroe.mortensen@gmail.com'
-                    }
-                }
-                scm {
-                    connection = 'scm:git:git:github.com:sabroe/Topp-JSON.git'
-                    developerConnection = 'scm:git:ssh://github.com:sabroe/Topp-JSON.git'
-                    url = 'https://github.com/sabroe/Topp-JSON'
-                }
-            }
-        }
-    }
-
-    repositories {
-        maven {
-            name = 'OSSRH'
-            url = 'https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/'
-            credentials {
-                username = project.properties['ossrhUsername']
-                password = project.properties['ossrhPassword']
-            }
-        }
-    }
-}
-
-signing {
-    sign publishing.publications.mavenJava
 }
