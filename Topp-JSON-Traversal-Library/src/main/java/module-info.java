@@ -1,5 +1,5 @@
 //jdeps --multi-release 11 --module-path lib --generate-module-info out Topp-JSON-Traversal-Library-0.5.0.jar
-module Topp.JSON.Traversal.Library {
+module com.yelstream.topp.json.traversal {
     requires static lombok;
 
     requires transitive com.fasterxml.jackson.core;

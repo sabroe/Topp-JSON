@@ -1,5 +1,5 @@
 //jdeps --multi-release 11 --module-path lib --generate-module-info out Topp-JSON-Serialization-Library-0.5.0.jar
-module Topp.JSON.Serialization.Library {
+module com.yelstream.topp.json.serialization {
     requires static lombok;
 
     requires com.fasterxml.jackson.core;
