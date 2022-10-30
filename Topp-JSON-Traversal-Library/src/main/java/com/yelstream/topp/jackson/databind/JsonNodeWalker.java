@@ -33,7 +33,7 @@ import java.util.Map;
  * Intercepting nodes as a pre- or post-action is done by overriding any of the {@code onXXX()} methods in a sub-class
  * while still invoking the method of the same name in this the super-class.
  *
- * @author Morten Sabroe Mortenen
+ * @author Morten Sabroe Mortensen
  * @version 1.0
  * @since 2022-04-23
  */

@@ -16,7 +16,7 @@ import java.io.IOException;
  * Converts between textual JSON documents and Jackson POJOs using a specific JSON schema and a specific Jackson object mapper.
  * @param <T> Type of Jackson POJOs for the deserialized form of textual JSON documents.
  *
- * @author Morten Sabroe Mortenen
+ * @author Morten Sabroe Mortensen
  * @version 1.0
  * @since 2022-04-23
  */

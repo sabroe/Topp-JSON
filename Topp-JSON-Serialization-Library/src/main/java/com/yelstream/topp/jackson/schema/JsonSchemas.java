@@ -17,7 +17,7 @@ import java.util.Set;
 /**
  * Utility addressing instances of {@link JsonSchema}.
  *
- * @author Morten Sabroe Mortenen
+ * @author Morten Sabroe Mortensen
  * @version 1.0
  * @since 2022-04-23
  */

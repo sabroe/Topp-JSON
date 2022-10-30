@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 /**
  * Utility addressing instances of {@link ValidationMessage}.
  *
- * @author Morten Sabroe Mortenen
+ * @author Morten Sabroe Mortensen
  * @version 1.0
  * @since 2022-04-23
  */
