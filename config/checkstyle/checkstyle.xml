@@ -18,6 +18,7 @@
 
 <!--
     Copy by MSM.
+    - Version 0.2 @ 2022-11-12
     - Version 0.1 @ 2022-11-11
 -->
 
@@ -123,7 +124,7 @@
       <property name="tokens"
                 value="SEMI, LITERAL_IF, LITERAL_ELSE, LITERAL_RETURN,
                     LITERAL_WHILE, LITERAL_DO, LITERAL_FOR, LITERAL_FINALLY, DO_WHILE, ELLIPSIS,
-                    LITERAL_SWITCH, LITERAL_SYNCHRONIZED, LITERAL_TRY, LITERAL_CATCH, LAMBDA,
+                    LITERAL_SWITCH, LITERAL_SYNCHRONIZED, LITERAL_TRY, LITERAL_CATCH,
                     LITERAL_YIELD, LITERAL_CASE"/>
     </module>
     <module name="WhitespaceAround">
@@ -144,13 +145,13 @@
                     SR_ASSIGN, STAR, STAR_ASSIGN, LITERAL_ASSERT, TYPE_EXTENSION_AND"/>
 -->
       <property name="tokens"
-                value="BAND, BAND_ASSIGN, BOR, BOR_ASSIGN, BSR, BSR_ASSIGN, BXOR,
-                    BXOR_ASSIGN, DIV, DIV_ASSIGN, DO_WHILE, EQUAL, GE, GT, LAMBDA, LAND,
-                    LCURLY, LE, LITERAL_CATCH, LITERAL_DO, LITERAL_ELSE, LITERAL_FINALLY,
+                value="BOR, BOR_ASSIGN, BSR, BSR_ASSIGN, BXOR,
+                    BXOR_ASSIGN, DO_WHILE, LAND,
+                    LCURLY, LITERAL_CATCH, LITERAL_DO, LITERAL_ELSE, LITERAL_FINALLY,
                     LITERAL_FOR, LITERAL_IF, LITERAL_RETURN, LITERAL_SWITCH, LITERAL_SYNCHRONIZED,
-                    LITERAL_TRY, LITERAL_WHILE, LOR, LT, MINUS, MINUS_ASSIGN, MOD, MOD_ASSIGN,
-                    PLUS_ASSIGN, RCURLY, SL, SLIST, SL_ASSIGN, SR,
-                    SR_ASSIGN, STAR, STAR_ASSIGN, LITERAL_ASSERT, TYPE_EXTENSION_AND"/>
+                    LITERAL_TRY, LITERAL_WHILE, LOR,
+                    RCURLY, SL, SLIST, SL_ASSIGN, SR,
+                    SR_ASSIGN, LITERAL_ASSERT, TYPE_EXTENSION_AND"/>
       <message key="ws.notFollowed"
               value="WhitespaceAround: ''{0}'' is not followed by whitespace. Empty blocks
                may only be represented as '{}' when not part of a multi-block statement (4.1.3)"/>
