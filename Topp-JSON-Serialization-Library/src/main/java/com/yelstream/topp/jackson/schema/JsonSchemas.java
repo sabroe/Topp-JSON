@@ -121,6 +121,7 @@ public class JsonSchemas {
     /**
      * Deserializes a JSON document into a Jackson POJO.
      * If the schema given is non-{@code null} then the JSON document is verified before deserialization.
+     * @param <T> Type of Jackson POJO.
      * @param schema IETF JSON Schema.
      *               This may be {@code null}.
      * @param mapper Configuration of mapping between JSON documents and Jackson POJOs.
@@ -129,7 +130,6 @@ public class JsonSchemas {
      * @return Jackson POJO.
      * @throws IOException Thrown in case of errors.
      * @throws ValidationException Thrown in case of validation errors.
-     * @param <T> Type of Jackson POJO.
      */
     public static <T> T deserialize(JsonSchema schema,
                                     ObjectMapper mapper,

@@ -143,12 +143,12 @@ public class ObjectMappers {
 
     /**
      * Deserializes a JSON document into a Jackson POJO.
+     * @param <T> Type of Jackson POJO.
      * @param mapper Configuration of mapping between JSON documents and Jackson POJOs.
      * @param document JSON document.
      * @param type Type of Jackson POJO.
      * @return Jackson POJO.
      * @throws IOException Thrown in case of errors.
-     * @param <T> Type of Jackson POJO.
      */
     public static <T> T deserialize(ObjectMapper mapper,
                                     String document,

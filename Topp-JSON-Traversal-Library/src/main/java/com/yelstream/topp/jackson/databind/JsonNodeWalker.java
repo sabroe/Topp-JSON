@@ -39,7 +39,7 @@ import java.util.Map;
  */
 public class JsonNodeWalker {
     /**
-     *
+     * Context.
      */
     @Getter
     @Setter
@@ -52,6 +52,10 @@ public class JsonNodeWalker {
         private final String name;
     }
 
+    /**
+     * Traverse node.
+     * @param node Node.
+     */
     public void walk(JsonNode node) {
         JsonPointer nodePointer=JsonPointer.valueOf(""+JsonPointer.SEPARATOR);
         Context context=Context.builder().rootNode(node).nodePointer(nodePointer).build();

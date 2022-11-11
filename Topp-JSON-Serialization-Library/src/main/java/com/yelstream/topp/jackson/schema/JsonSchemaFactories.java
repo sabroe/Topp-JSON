@@ -49,16 +49,12 @@ public class JsonSchemaFactories {
         }
     }
 
+    /**
+     * XXX.
+     */
     public static JsonSchemaFactory createSchemaFactory2() {
         JsonSchemaFactory schemaFactory=JsonSchemaFactory.getInstance(SCHEMA_VERSION);
         JsonSchemaFactory.Builder schemaFactoryBuilder=JsonSchemaFactory.builder(schemaFactory);
-
-        //schemaFactory.
-        //schemaFactoryBuilder.
-
-//        schemaFactoryBuilder.addMetaSchemas()
-
-//        schemaFactoryBuilder.addMetaSchema(JsonMetaSchemas.createJsonMetaSchemas(schemaFactory.));
 
         schemaFactoryBuilder.addUrnFactory(new XXXURNFactory());
 
